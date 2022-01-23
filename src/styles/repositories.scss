@@ -1,0 +1,68 @@
+section.repository-list {
+  margin: 40px;
+
+  h1 {
+    margin-bottom: 16px;
+  }
+
+  ul {
+    list-style: none;
+
+    li {
+      & + li {
+        margin-top: 20px;
+      }
+
+      p {
+        font-size: 14px;
+        color: #444;
+        margin-top: 8px;
+      }
+
+      a {
+        display: inline-block;
+        margin-top: 16px;
+        text-decoration: none;
+        color: #8257e6;
+      }
+    }
+  }
+}
+section.repository-list-table {
+  align-content: center;
+  h1 {
+    margin-bottom: 16px;
+  }
+  table,
+  th,
+  td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    align-content: center;
+  }
+  p {
+    font-size: 14px;
+    color: #444;
+    margin-top: 8px;
+  }
+  a {
+    display: inline-block;
+    text-decoration: none;
+    color: #8257e6;
+    align-items: center;
+    text-align: center;
+  }
+}
+section.repository-list-card {
+  border-radius: 5%;
+  background: #f4f4f4;
+  .teste {
+    margin: 20px;
+    & + .teste {
+      margin: 20px;
+      // & :nth-child(1) {
+      //   margin: 20px;
+      // }
+    }
+  }
+}
